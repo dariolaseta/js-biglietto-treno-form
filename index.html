@@ -10,19 +10,17 @@
     </head>
     <body>
         <main>
-            <div>
+            <form>
                 <label for="distance">Quanti chilometri vuoi percorrere?</label>
                 <input type="number" name="km" id="distance">
-            </div>
-
-            <div>
-                <label for="user-age">Quanti anni hai?</label>
+                <label for="age">Quanti anni hai?</label>
                 <input type="number" name="age" id="user-age">
-            </div>
+                <p class="button calculate">Calcola</p>
+            </form>
 
-            <div>
-                <button id="calculate">Calcola il prezzo</button>
-            </div>
+            <p id="final-km">I chilometri che vuoi percorrere sono: </p>
+            <p id="final-user-age">La tua età è: </p>
+            <p id="final-price">Il prezzo del biglietto è: </p>
         </main>
 
         <script src="script/myscript.js"></script>
